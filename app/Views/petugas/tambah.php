@@ -48,7 +48,7 @@
                             </div>
                         </div>
                         <div class="form-group row mb-2">
-                            <label for="tgl_lahir" class="col-sm-2 col-form-label">TTL</label>
+                            <label for="tgl_lahir" class="col-sm-2 col-form-label">Tanggal Lahir</label>
                             <div class="col-sm-10">
                                 <input type="date" class="form-control" id="tgl_lahir" name="tgl_lahir" placeholder="Tanggal Lahir">
                             </div>
@@ -62,13 +62,13 @@
                         <div class="form-group row mb-2">
                             <label for="email" class="col-sm-2 col-form-label">Email</label>
                             <div class="col-sm-10">
-                                <input type="email" class="form-control" id="email" name="email@gmail.com" placeholder="Nama Dosen">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="email@gmail.com">
                             </div>
                         </div>
                         <div class="form-group row mb-2">
                             <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="alamat" name="Alamat" placeholder="Nama Dosen">
+                                <input type="text" class="form-control" id="alamat" name="alamat" placeholder="Alamat">
                             </div>
                         </div>
                         <div class="form-group row mb-2">

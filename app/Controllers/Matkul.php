@@ -17,7 +17,6 @@ class Matkul extends BaseController
         $this->dosen = new DosenModel();
 
         $this->rules = [
-            'nama_dosen' => 'required',
             'nama_matkul' => 'required',
             'sks' => 'required'
         ];

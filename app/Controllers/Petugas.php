@@ -17,8 +17,13 @@ class Petugas extends BaseController
         $this->jabatan = new JabatanModel();
 
         $this->rules = [
-            'nama_jabatan' => 'required',
+            'id_jabatan' => 'required',
             'nama_petugas' => 'required',
+            'tgl_lahir' => 'required',
+            'no_telp' => 'required',
+            'email' => 'required',
+            'alamat' => 'required',
+            'status' => 'required'
         ];
     }
 
@@ -63,7 +68,7 @@ class Petugas extends BaseController
             'title' => 'Edit Data Petugas',
             'data' => $this->petugas->join('jabatan', 'jabatan.id_jabatan = petugas.id_jabatan')
             ->findAll(),
-            'petugas' => $this->petugas->findAll(),
+            'petugas' => $this->petugas->find($id),
             'jabatan' => $this->jabatan->findAll()
         ];
 

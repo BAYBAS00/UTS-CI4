@@ -43,8 +43,8 @@
                         <tr>
                             <td><?php echo $no++ ?></td>
                             <td><?php echo  $matkul['nama_matkul'] ?></td>
-                            <td><?php echo  $matkul['id_dosen'] ?></td>
                             <td><?php echo $matkul['sks'] ?></td>
+                            <td><?php echo  $matkul['nama_dosen'] ?></td>
                             <td class="text-center">
                                 <a href="<?= url_to('Matkul::edit',  $matkul['id_matkul']); ?>" class="btn btn-warning fa fa-pencil-square-o"> Edit</a>
                                 <a href="<?= url_to('Matkul::hapus',  $matkul['id_matkul']); ?>" class=" btn btn-danger fa fa-trash-o"> Hapus</a>
